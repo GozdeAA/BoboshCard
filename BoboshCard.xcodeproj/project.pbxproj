@@ -11,6 +11,7 @@
 		629807AB2C84BCE0009F7762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629807AA2C84BCE0009F7762 /* ContentView.swift */; };
 		629807AD2C84BCE1009F7762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629807AC2C84BCE1009F7762 /* Assets.xcassets */; };
 		629807B02C84BCE1009F7762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629807AF2C84BCE1009F7762 /* Preview Assets.xcassets */; };
+		629807BA2C84C982009F7762 /* Sevillana-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 629807B92C84C982009F7762 /* Sevillana-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,9 @@
 		629807AA2C84BCE0009F7762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		629807AC2C84BCE1009F7762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		629807AF2C84BCE1009F7762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		629807B72C84C023009F7762 /* BaskervvilleSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaskervvilleSC-Regular.ttf"; sourceTree = "<group>"; };
+		629807B82C84C0EE009F7762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		629807B92C84C982009F7762 /* Sevillana-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sevillana-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		629807A72C84BCE0009F7762 /* BoboshCard */ = {
 			isa = PBXGroup;
 			children = (
+				629807B82C84C0EE009F7762 /* Info.plist */,
+				629807B62C84C019009F7762 /* fonts */,
 				629807A82C84BCE0009F7762 /* BoboshCardApp.swift */,
 				629807AA2C84BCE0009F7762 /* ContentView.swift */,
 				629807AC2C84BCE1009F7762 /* Assets.xcassets */,
@@ -65,6 +71,15 @@
 				629807AF2C84BCE1009F7762 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		629807B62C84C019009F7762 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				629807B92C84C982009F7762 /* Sevillana-Regular.ttf */,
+				629807B72C84C023009F7762 /* BaskervvilleSC-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +142,7 @@
 			files = (
 				629807B02C84BCE1009F7762 /* Preview Assets.xcassets in Resources */,
 				629807AD2C84BCE1009F7762 /* Assets.xcassets in Resources */,
+				629807BA2C84C982009F7762 /* Sevillana-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 				DEVELOPMENT_TEAM = 4W6SW45TNW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoboshCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +321,7 @@
 				DEVELOPMENT_TEAM = 4W6SW45TNW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoboshCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
